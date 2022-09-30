@@ -14,8 +14,7 @@
 
 ## 🧭 OBJETIVO
 
-Para o projeto final do Módulo 4 da formação em Data Analytics da [Resilia Educação](https://www.resilia.com.br), a nossa equipe foi escalada pela  Agência Nacional de Petróleo e Gás Natural (ANP) para realizar uma análise exploratória do preço de venda da gasolina e do etanol.
-
+Para o projeto final do Módulo 4 da formação em Data Analytics da [Resilia Educação](https://www.resilia.com.br), a nossa equipe foi escalada pela  Agência Nacional de Petróleo e Gás Natural (ANP) para realizar uma análise exploratória do preço de venda da gasolina e do etanol praticado atualmente no Brasil.
 
 ### Detalhes do projeto
 

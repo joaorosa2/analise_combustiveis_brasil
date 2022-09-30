@@ -42,7 +42,8 @@ da análise em markdown, apresentação dos resultados e insights gerados;
 
 A análise realizada pela equipe consiste na resolução dos questionamentos realizados abaixo:
 ```
-1. Como se comportaram o preço dos combustíveis durante os dois meses citados? Os valores do etanol e da gasolina tiveram uma queda ou diminuição?
+1. Como se comportaram o preço dos combustíveis durante os dois meses citados? Os valores do etanol 
+e da gasolina tiveram uma queda ou diminuição?
 2. Qual o preço médio da gasolina e do etanol nesses dois meses?  
 3. Quais os 5 estados com o preço médio da gasolina e do etanol mais caros?
 4. Qual o preço médio da gasolina e do etanol por estado?

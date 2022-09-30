@@ -1,4 +1,4 @@
-# Análise do preço dos combustíveis no Brasil
+# Análise do preço dos combustíveis praticados no Brasil
 
 ## <center>Projeto de Conclusão do Módulo 4 - Curso Data Analytics</center>
 

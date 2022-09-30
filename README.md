@@ -19,9 +19,9 @@ Para o projeto final do Módulo 4 da formação em Data Analytics da [Resilia Ed
 ### Detalhes do projeto
 
 ➔ Serão utilizados os dados dos meses de Julho e Agosto de 2022 para analisar a série
-histórica dos preços da gasolina e do etanol em todo o Brasil.   
+histórica dos preços da gasolina e do etanol em todo o Brasil.     
 ➔ Dados disponíveis no site da
-[Agência Nacional de Petróleo (ANP)](https://www.gov.br/anp/pt-br)
+[Agência Nacional de Petróleo (ANP)](https://www.gov.br/anp/pt-br)  
 ➔ Para escrever o código utilizamos a [Documentação do Pandas](https://pandas.pydata.org/docs/index.html)
 
 <!-- O objetivo da nossa equipe consiste em compreender se houve oscilação do preço do combustível nos últimos dois meses no Brasil: -->

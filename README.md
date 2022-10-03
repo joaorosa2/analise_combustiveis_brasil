@@ -154,66 +154,12 @@ python e enter
 - Aparecerá a configuração do python no Anaconda  
 - No Anaconda, usaremos o Jupyter, uma ferramenta iterativa onde os códigos aparecem assim que os comandos são digitados na plataforma
 
-**Descrição de Ferramentas:**
+## ⚙ DESCRIÇÃO DAS FERRAMENTAS
+
 
 - Anaconda: é a principal distribuição para cientistas de dados que usam python
 - Jupyter: é a nossa ferramenta para executar código python e visualizar os dados
 - Ambientes Virtuais: ajudam isolar um projeto para definir a versão das bibliotecas e do próprio python
-
-
-
-
-<!-- ```
-
-- Para criar um novo user digite:
-
-```shell
-create user nomedouser with encrypted password 'senha';
-```
-
-- Para verificar se o user foi criado, digite:
-
-```shell
-/du
-```
-
-**4º passo: Criar uma nova base de dados:**
-
-- Execute o comando no terminal:
-
-```shell
-create database projeto3;
-```
-
-- Para verificar se o database foi criado, digite:
-
-```shell
-/l
-```
-
-**5º Dar permissão de administrador para o novo User**
-
-- Digite o comando:
-
-```shell
-grant all on database projeto3 to nomedouser;
-```
-
-**6º conectar pgAdmin ao Postegresql**
-
-- Abra o programa pgAdmin.
-
-- Digite a senha master para reconectar com o servidor da base de dados, nesse caso o Postgresql.
-
-- Após, selecione o Dashboard no canto superior
-
-- Clique em Add New Server, no qual irá abrir uma nova janela.
-
-- Preencha o campo Name na aba General. Preencha o campo Hostname/address com localhost, Maintenance database com projeto3, Username com resilia, digite o password do user na aba Connection. Por fim, clique em Save.
-
-- Clique nas setas no canto esquerdo para abrir as instâncias, clique na database projeto3 e, por fim clique em Query Tools, um ícone de vários discos empilhados com uma seta, no canto superior direito.
-
-- Pronto, já pode ser possível criar os comandos de consultas. -->
 
 ## 🤝TIME DE DESENVOLVEDORES
 

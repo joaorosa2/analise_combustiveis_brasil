@@ -255,7 +255,8 @@ grant all on database projeto3 to nomedouser;
 
 ### Visualize a descrição que resume as políticas adotadas pelo time para melhorar a performance no projeto
 
-![imagem](https://files.slack.com/files-pri/T041PF2GZTQ-F0449N9DKPZ/metodologia_kanban.png)
+![METODOLOGIA_KANBAN](https://user-images.githubusercontent.com/78969637/193679424-645062ac-38a2-43f5-b647-d46ce1b09935.png)
+
 
 ### Análise de Desempenho do time no Cumulative Flow Diagram (CFD) de uma das  primeiras etapas da sprint do projeto
 
@@ -267,8 +268,11 @@ grant all on database projeto3 to nomedouser;
 
 ### Lead Time de uma das perguntas que foram respondidas pelo time ao longo do projeto
 
-![pergunta 5](https://files.slack.com/files-pri/T041PF2GZTQ-F044HLDGZ2S/cycle_time_pergunta_5.png)
+![LEAD_TIME_5](https://user-images.githubusercontent.com/78969637/193679684-48f3e875-9fa6-4ddd-939f-ec22cff5646f.png)
 
+### Lead Time da tarefa importar tabelas do dataframe
+
+![LEAD_TIME_IMPORTAR_TABELAS_DATAFRAME](https://user-images.githubusercontent.com/78969637/193679864-5b13d72f-0265-4d13-85ec-c4fd2874a0fe.png)
 
 
 ## 💻FUNCIONAMENTO

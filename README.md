@@ -241,11 +241,11 @@ grant all on database projeto3 to nomedouser;
 ![GRAFICO_BURNDOWN](https://user-images.githubusercontent.com/78969637/193673940-22cdca72-3255-4b9d-aed4-a58869409619.png)
 
   
-### Análise de Desempenho da Squad 4 de uma das etapas da Metodologia Scrum: o Product Backlog
+### É possível visualizar o Product Backlog do time pelo grau de prioridade das tarefas
   
 ![grafico](https://user-images.githubusercontent.com/78969637/193351039-0d08c9e0-33b7-4315-93dc-e5478e08078a.png)
 
-###  Podemos visualizar o Desempenho da Squad 4 pela lista Product Backlog em forma de Histogramas
+###  Podemos visualizar o fluxo de trabalho da equipe em forma de Histogramas
 
 ![grafico](https://user-images.githubusercontent.com/78969637/193351400-e533d1cd-5f2d-4edc-a3cb-3766859cee85.png)
 

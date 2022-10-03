@@ -217,8 +217,6 @@ grant all on database projeto3 to nomedouser;
 
 ## 🤝TIME DE DESENVOLVEDORES
 
-<!-- ![Apresentação de Negócios Plano de Projeto Corporativo Geométrico Amarelo e Branco](https://user-images.githubusercontent.com/75100979/187587320-f03200c7-1d46-4fa1-9e6a-f08d35a964a7.png) -->
-
 ###### João Victor - Colaborador I
 
 [![Linkedin Badge](https://img.shields.io/badge/-LinkedIn-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https:https://www.linkedin.com/in/joao-victor-juliao/)](https://www.linkedin.com/in/joaorosab/)
@@ -235,22 +233,42 @@ grant all on database projeto3 to nomedouser;
 
 [![Linkedin Badge](https://img.shields.io/badge/-LinkedIn-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https:https://www.linkedin.com/in/luizasampaiods/)](https://www.linkedin.com/in/matheusbarbosa-an%C3%A1lise-dados)
 
-## Abaixo, veja o escopo da primeira Sprint realizada pelo time:
+## ⌚ METODOLOGIA SCRUM
 
 
-![Sprint 1](https://user-images.githubusercontent.com/78969637/193348144-403b2720-5c6e-408a-9aa3-5e674c77218c.png)
+### Abaixo, veja o escopo da sprint do Gráfico de Burndown realizado pelo time:
+
+![GRAFICO_BURNDOWN](https://user-images.githubusercontent.com/78969637/193673940-22cdca72-3255-4b9d-aed4-a58869409619.png)
+
   
-## Análise de Desempenho da Squad 4 de uma das etapas da Metodologia Scrum: o Product Backlog
+### Análise de Desempenho da Squad 4 de uma das etapas da Metodologia Scrum: o Product Backlog
   
 ![grafico](https://user-images.githubusercontent.com/78969637/193351039-0d08c9e0-33b7-4315-93dc-e5478e08078a.png)
 
-## Podemos visualizar o Desempenho da Squad 4 pela lista Product Backlog em forma de Histogramas.
+###  Podemos visualizar o Desempenho da Squad 4 pela lista Product Backlog em forma de Histogramas
 
 ![grafico](https://user-images.githubusercontent.com/78969637/193351400-e533d1cd-5f2d-4edc-a3cb-3766859cee85.png)
 
-## Abaixo, é possível visualizar o cartão que descreve a lista do Product Backlog utilizada pelo time na metodologia Scrum
+### Visualize a descrição do Product Backlog através da ferramenta Trello
   
 ![grafico](https://user-images.githubusercontent.com/78969637/193351670-bf6694a7-a8ea-4e23-95d3-51ce96673973.png)
+
+### Visualize a descrição que resume as políticas adotadas pelo time para melhorar a performance no projeto
+
+![imagem](https://files.slack.com/files-pri/T041PF2GZTQ-F0449N9DKPZ/metodologia_kanban.png)
+
+### Análise de Desempenho do time no Cumulative Flow Diagram (CFD) de uma das  primeiras etapas da sprint do projeto
+
+![imagem](https://user-images.githubusercontent.com/78969637/193677255-8eac0594-f6ee-48b7-8655-3342090261b1.png)
+
+### Timing de uma das etapas do projeto
+
+![LEAD_TIME_1](https://user-images.githubusercontent.com/78969637/193678028-83aae7a4-1bb9-42b3-a792-dc32eac38146.png)
+
+### Lead Time de uma das perguntas que foram respondidas pelo time ao longo do projeto
+
+![pergunta 5](https://files.slack.com/files-pri/T041PF2GZTQ-F044HLDGZ2S/cycle_time_pergunta_5.png)
+
 
 
 ## 💻FUNCIONAMENTO

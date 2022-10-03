@@ -122,7 +122,7 @@ https://jupyter.org/
 - Clique em `Este Computador`. Em seguida, clique em `Disco Local (C:)`
 - Clique e copie o endereço da `URL`
 
-Configurando a variável de ambiente:
+**4º passo: configurando a variável de ambiente:**
 
 - Clique em `Meu Computador` com o Mouse Direito
 - Clique em `Propriedades`
@@ -131,20 +131,22 @@ Configurando a variável de ambiente:
 - Clique em `Path`. Em seguida, clique em `Editar` e `Novo`
 - Cole a `URL`
 
-Volte no menu `Iniciar` e clique novamente na opção `Meu Computador`. Em seguida, realize os passos abaixo:
+**5º passo: volte no menu `Iniciar` e clique novamente na opção `Meu Computador`. Em seguida, realize os passos abaixo:**
+
 - clique em `disco local` 
 - clique em `usuarios`
 - clique em `user`
 - clique `anaconda 3`
 - `Script`
 
-Clique na URL e copie:
+**6º passo: clique na URL e copie:**
+
 - `C:\Users\user\anaconda3\Scripts`
 - Dê `ok` em tudo
 
-A configuração da variável de ambiente está pronta
+A configuração da variável de ambiente está pronta!
 
-**4º passo:  Digite o seguinte comando no menu Iniciar do Windows para abrir o Shell Anaconda:**
+**7º passo:  Digite o seguinte comando no menu Iniciar do Windows para abrir o Shell Anaconda:**
 
 ```shell
 python e enter
@@ -152,7 +154,13 @@ python e enter
 - Aparecerá a configuração do python no Anaconda  
 - No Anaconda, usaremos o Jupyter, uma ferramenta iterativa onde os códigos aparecem assim que os comandos são digitados na plataforma
 
-**5º passo: Criando um ambiente virtual:**
+**Descrição de Ferramentas:**
+
+- Anaconda: é a principal distribuição para cientistas de dados que usam python
+- Jupyter: é a nossa ferramenta para executar código python e visualizar os dados
+- Ambientes Virtuais: ajudam isolar um projeto para definir a versão das bibliotecas e do próprio python
+
+
 
 
 <!-- ```

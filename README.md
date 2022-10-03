@@ -97,7 +97,7 @@ git clone https://github.com/joaorosa2/analise_combustiveis_brasil.git
 https://docs.github.com/pt/repositories/creating-and-managing-repositories/cloning-a-repository
 ```
 
-**2º passo: Fazer download do Anaconda e baixar a Jupyter no Python (no sistema Windows):**
+**2º passo: Fazer download do Anaconda e baixar a ferramenta Jupyter no Python (sistema Windows):**
 - Baixe o Anaconda através do seguinte link:
 
 https://www.anaconda.com/products/distribution

@@ -71,6 +71,179 @@ e da gasolina tiveram uma queda ou diminuição?
 <img src="https://salesdorado.com/wp-content/uploads/2022/07/Trello-Logo.png" width="200" height="100" /><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Pandas_logo.svg/1200px-Pandas_logo.svg.png" width="200" height="100" /><img src="https://python.org.br/theme/img/site-logo.svg" width="200" height="100" />
 
 
+<!-- Para visualizar os dados das consultas foi criado um dashboard com Power BI em que é possível analisar graficamente das consultas e os insights que foram gerados pelo banco de dados:
+
+![Screenshot_3](https://user-images.githubusercontent.com/75100979/187985465-c06fd341-187e-4677-ac32-e8be8eb396a0.png) -->
+
+
+## 💡 COMO EXECUTAR O PROJETO?
+
+**1º passo: o usuário deverá fazer o clone do repositório:**
+
+- No GitHub navegue até a página inicial do repositório;
+- Copie a URL: https://github.com/joaorosa2/analise_combustiveis_brasil.git
+- Abra o seu Git Bash;
+- Selecione o local onde deseja ter o repositório clonado e digite:
+
+```shell
+git clone https://github.com/joaorosa2/analise_combustiveis_brasil.git
+```
+
+- Pressione enter para criar o seu clone local.
+
+- Em caso de dúvidas, por favor acesse a documentação:
+
+```shell
+https://docs.github.com/pt/repositories/creating-and-managing-repositories/cloning-a-repository
+```
+
+**2º passo: Fazer download do Anaconda e baixar a Jupyter no Python (no sistema Windows):**
+- Baixe o Anaconda através do seguinte link:
+
+https://www.anaconda.com/products/distribution
+
+- Baixe a biblioteca Jupyter através do seguinte link:
+
+https://jupyter.org/
+
+<!-- <img src="anaconda.png" width="200" height="100"/> -->
+
+
+- Faça a instalação do Anaconda no seu computador
+
+**3º passo: configuração das variáveis de ambiente do Anaconda:**
+
+- Clique no canto inferior esquerdo na no menu `INICIAR`
+- Clique em `Meu Computador`
+- Clique em `Disco Local`
+- Clique em `Usuarios`
+- Clique em `User`
+- Clique em `Anaconda 3`
+- Clique em `Este Computador`. Em seguida, clique em `Disco Local (C:)`
+- Clique e copie o endereço da `URL`
+
+Configurando a variável de ambiente:
+
+- Clique em `Meu Computador` com o Mouse Direito
+- Clique em `Propriedades`
+- Clique em `Configurações Avançadas do Sistema`
+- Clique em `Variáveis de Ambiente`
+- Clique em `Path`. Em seguida, clique em `Editar` e `Novo`
+- Cole a `URL`
+
+Volte no menu `Iniciar` e clique novamente na opção `Meu Computador`. Em seguida, realize os passos abaixo:
+- clique em `disco local` 
+- clique em `usuarios`
+- clique em `user`
+- clique `anaconda 3`
+- `Script`
+
+Clique na URL e copie:
+- `C:\Users\user\anaconda3\Scripts`
+- Dê `ok` em tudo
+
+A configuração da variável de ambiente está pronta
+
+**4º passo:  Digite o seguinte comando no menu Iniciar do Windows para abrir o Shell Anaconda:**
+
+```shell
+python e enter
+``` 
+- Aparecerá a configuração do python no Anaconda  
+- No Anaconda, usaremos o Jupyter, uma ferramenta iterativa onde os códigos aparecem assim que os comandos são digitados na plataforma
+
+**5º passo: Criando um ambiente virtual:**
+
+
+<!-- ```
+
+- Para criar um novo user digite:
+
+```shell
+create user nomedouser with encrypted password 'senha';
+```
+
+- Para verificar se o user foi criado, digite:
+
+```shell
+/du
+```
+
+**4º passo: Criar uma nova base de dados:**
+
+- Execute o comando no terminal:
+
+```shell
+create database projeto3;
+```
+
+- Para verificar se o database foi criado, digite:
+
+```shell
+/l
+```
+
+**5º Dar permissão de administrador para o novo User**
+
+- Digite o comando:
+
+```shell
+grant all on database projeto3 to nomedouser;
+```
+
+**6º conectar pgAdmin ao Postegresql**
+
+- Abra o programa pgAdmin.
+
+- Digite a senha master para reconectar com o servidor da base de dados, nesse caso o Postgresql.
+
+- Após, selecione o Dashboard no canto superior
+
+- Clique em Add New Server, no qual irá abrir uma nova janela.
+
+- Preencha o campo Name na aba General. Preencha o campo Hostname/address com localhost, Maintenance database com projeto3, Username com resilia, digite o password do user na aba Connection. Por fim, clique em Save.
+
+- Clique nas setas no canto esquerdo para abrir as instâncias, clique na database projeto3 e, por fim clique em Query Tools, um ícone de vários discos empilhados com uma seta, no canto superior direito.
+
+- Pronto, já pode ser possível criar os comandos de consultas. -->
+
+## 🤝TIME DE DESENVOLVEDORES
+
+<!-- ![Apresentação de Negócios Plano de Projeto Corporativo Geométrico Amarelo e Branco](https://user-images.githubusercontent.com/75100979/187587320-f03200c7-1d46-4fa1-9e6a-f08d35a964a7.png) -->
+
+###### João Victor - Colaborador I
+
+[![Linkedin Badge](https://img.shields.io/badge/-LinkedIn-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https:https://www.linkedin.com/in/joao-victor-juliao/)](https://www.linkedin.com/in/joaorosab/)
+
+###### Diego Ferreira - Gestor de Gente e engajamento
+
+[![Linkedin Badge](https://img.shields.io/badge/-LinkedIn-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https:https://www.linkedin.com/in/joao-victor-juliao/)](https://www.linkedin.com/in/diego-sousa-ferreira/)
+
+###### Camila - Co-facilitador
+
+[![Linkedin Badge](https://img.shields.io/badge/-LinkedIn-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https:https://www.linkedin.com/in/lucascanella-dados/)](https://www.linkedin.com/in/camilla-sampaio-0b8ab3218)
+
+###### Matheus - Gestor do Conhecimento
+
+[![Linkedin Badge](https://img.shields.io/badge/-LinkedIn-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https:https://www.linkedin.com/in/luizasampaiods/)](https://www.linkedin.com/in/matheusbarbosa-an%C3%A1lise-dados)
+
+## Abaixo, veja o escopo da primeira Sprint realizada pelo time:
+
+
+![Sprint 1](https://user-images.githubusercontent.com/78969637/193348144-403b2720-5c6e-408a-9aa3-5e674c77218c.png)
+  
+## Análise de Desempenho da Squad 4 de uma das etapas da Metodologia Scrum: o Product Backlog
+  
+![grafico](https://user-images.githubusercontent.com/78969637/193351039-0d08c9e0-33b7-4315-93dc-e5478e08078a.png)
+
+## Podemos visualizar o Desempenho da Squad 4 pela lista Product Backlog em forma de Histogramas.
+
+![grafico](https://user-images.githubusercontent.com/78969637/193351400-e533d1cd-5f2d-4edc-a3cb-3766859cee85.png)
+
+## Abaixo, é possível visualizar o cartão que descreve a lista do Product Backlog utilizada pelo time na metodologia Scrum
+  
+![grafico](https://user-images.githubusercontent.com/78969637/193351670-bf6694a7-a8ea-4e23-95d3-51ce96673973.png)
+
 
 ## 💻FUNCIONAMENTO
 
@@ -400,181 +573,3 @@ correlacaoAgostoBand
 ```
 
 ![RESPOSTA_10 1](https://user-images.githubusercontent.com/78969637/193663124-30cfbbcc-31f4-4c43-bee9-0c6c3b745e12.png)
-
-
-
-
-<!-- Para visualizar os dados das consultas foi criado um dashboard com Power BI em que é possível analisar graficamente das consultas e os insights que foram gerados pelo banco de dados:
-
-![Screenshot_3](https://user-images.githubusercontent.com/75100979/187985465-c06fd341-187e-4677-ac32-e8be8eb396a0.png) -->
-
-
-## 💡 COMO EXECUTAR O PROJETO?
-
-**1º passo: o usuário deverá fazer o clone do repositório:**
-
-- No GitHub navegue até a página inicial do repositório;
-- Copie a URL: https://github.com/joaorosa2/analise_combustiveis_brasil.git
-- Abra o seu Git Bash;
-- Selecione o local onde deseja ter o repositório clonado e digite:
-
-```shell
-git clone https://github.com/joaorosa2/analise_combustiveis_brasil.git
-```
-
-- Pressione enter para criar o seu clone local.
-
-- Em caso de dúvidas, por favor acesse a documentação:
-
-```shell
-https://docs.github.com/pt/repositories/creating-and-managing-repositories/cloning-a-repository
-```
-
-**2º passo: Fazer download do Anaconda e baixar a Jupyter no Python (no sistema Windows):**
-- Baixe o Anaconda através do seguinte link:
-
-https://www.anaconda.com/products/distribution
-
-- Baixe a biblioteca Jupyter através do seguinte link:
-
-https://jupyter.org/
-
-<!-- <img src="anaconda.png" width="200" height="100"/> -->
-
-
-- Faça a instalação do Anaconda no seu computador
-
-**3º passo: configuração das variáveis de ambiente do Anaconda:**
-
-- Clique no canto inferior esquerdo na no menu `INICIAR`
-- Clique em `Meu Computador`
-- Clique em `Disco Local`
-- Clique em `Usuarios`
-- Clique em `User`
-- Clique em `Anaconda 3`
-- Clique em `Este Computador`. Em seguida, clique em `Disco Local (C:)`
-- Clique e copie o endereço da `URL`
-
-Configurando a variável de ambiente:
-
-- Clique em `Meu Computador` com o Mouse Direito
-- Clique em `Propriedades`
-- Clique em `Configurações Avançadas do Sistema`
-- Clique em `Variáveis de Ambiente`
-- Clique em `Path`. Em seguida, clique em `Editar` e `Novo`
-- Cole a `URL`
-
-Volte no menu `Iniciar` e clique novamente na opção `Meu Computador`. Em seguida, realize os passos abaixo:
-- clique em `disco local` 
-- clique em `usuarios`
-- clique em `user`
-- clique `anaconda 3`
-- `Script`
-
-Clique na URL e copie:
-- `C:\Users\user\anaconda3\Scripts`
-- Dê `ok` em tudo
-
-A configuração da variável de ambiente está pronta
-
-**4º passo:  Digite o seguinte comando no menu Iniciar do Windows para abrir o Shell Anaconda:**
-
-```shell
-python e enter
-``` 
-- Aparecerá a configuração do python no Anaconda  
-- No Anaconda, usaremos o Jupyter, uma ferramenta iterativa onde os códigos aparecem assim que os comandos são digitados na plataforma
-
-**5º passo: Criando um ambiente virtual:**
-
-
-<!-- ```
-
-- Para criar um novo user digite:
-
-```shell
-create user nomedouser with encrypted password 'senha';
-```
-
-- Para verificar se o user foi criado, digite:
-
-```shell
-/du
-```
-
-**4º passo: Criar uma nova base de dados:**
-
-- Execute o comando no terminal:
-
-```shell
-create database projeto3;
-```
-
-- Para verificar se o database foi criado, digite:
-
-```shell
-/l
-```
-
-**5º Dar permissão de administrador para o novo User**
-
-- Digite o comando:
-
-```shell
-grant all on database projeto3 to nomedouser;
-```
-
-**6º conectar pgAdmin ao Postegresql**
-
-- Abra o programa pgAdmin.
-
-- Digite a senha master para reconectar com o servidor da base de dados, nesse caso o Postgresql.
-
-- Após, selecione o Dashboard no canto superior
-
-- Clique em Add New Server, no qual irá abrir uma nova janela.
-
-- Preencha o campo Name na aba General. Preencha o campo Hostname/address com localhost, Maintenance database com projeto3, Username com resilia, digite o password do user na aba Connection. Por fim, clique em Save.
-
-- Clique nas setas no canto esquerdo para abrir as instâncias, clique na database projeto3 e, por fim clique em Query Tools, um ícone de vários discos empilhados com uma seta, no canto superior direito.
-
-- Pronto, já pode ser possível criar os comandos de consultas. -->
-
-## 🤝 DESENVOLVEDORES
-
-<!-- ![Apresentação de Negócios Plano de Projeto Corporativo Geométrico Amarelo e Branco](https://user-images.githubusercontent.com/75100979/187587320-f03200c7-1d46-4fa1-9e6a-f08d35a964a7.png) -->
-
-###### João Victor - Colaborador I
-
-[![Linkedin Badge](https://img.shields.io/badge/-LinkedIn-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https:https://www.linkedin.com/in/joao-victor-juliao/)](https://www.linkedin.com/in/diego-sousa-ferreira/)
-
-###### Diego Ferreira - Gestor de Gente e engajamento
-
-[![Linkedin Badge](https://img.shields.io/badge/-LinkedIn-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https:https://www.linkedin.com/in/joao-victor-juliao/)](https://www.linkedin.com/in/joao-victor-juliao/)
-
-###### Camila - Co-facilitador
-
-[![Linkedin Badge](https://img.shields.io/badge/-LinkedIn-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https:https://www.linkedin.com/in/lucascanella-dados/)](https://www.linkedin.com/in/lucascanella-dados/)
-
-###### Matheus - Gestor do Conhecimento
-
-[![Linkedin Badge](https://img.shields.io/badge/-LinkedIn-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https:https://www.linkedin.com/in/luizasampaiods/)](https://www.linkedin.com/in/luizasampaiods/)
-
-## Abaixo, veja o escopo da primeira Sprint realizada pelo time:
-
-
-![Sprint 1](https://user-images.githubusercontent.com/78969637/193348144-403b2720-5c6e-408a-9aa3-5e674c77218c.png)
-  
-## Análise de Desempenho da Squad 4 de uma das etapas da Metodologia Scrum: o Product Backlog
-  
-![grafico](https://user-images.githubusercontent.com/78969637/193351039-0d08c9e0-33b7-4315-93dc-e5478e08078a.png)
-
-## Podemos visualizar o Desempenho da Squad 4 pela lista Product Backlog em forma de Histogramas.
-
-![grafico](https://user-images.githubusercontent.com/78969637/193351400-e533d1cd-5f2d-4edc-a3cb-3766859cee85.png)
-
-## Abaixo, é possível visualizar o cartão que descreve a lista do Product Backlog utilizada pelo time na metodologia Scrum
-  
-![grafico](https://user-images.githubusercontent.com/78969637/193351670-bf6694a7-a8ea-4e23-95d3-51ce96673973.png)
-
-

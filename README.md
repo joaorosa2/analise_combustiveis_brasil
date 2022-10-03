@@ -147,7 +147,10 @@ maxAditivada['Produto'] = 'GASOLINA ADITIVADA'
 concatMax = pd.concat([maxEtanol,maxGasolina,maxAditivada]).reset_index()
 concatMax.set_index('Produto')
 ```
-<!-- ![imagem](USAR.png) -->
+
+No mês de Julho, os maiores valores no preço do Etanol, da Gasolina e da Gasolina Aditivada podem ser observados abaixo:
+
+![RESPOSTA_3](https://user-images.githubusercontent.com/78969637/193655005-a025ca61-7d18-4e4b-b895-416c0a74156c.png)
 
 <font color = violet> Mês de Agosto
 
@@ -166,6 +169,10 @@ maxAditivada['Produto'] = 'GASOLINA ADITIVADA'
 concatMax = pd.concat([maxEtanol,maxGasolina,maxAditivada]).reset_index()
 concatMax
 ```
+
+No mês de Agosto, os Estados com maiores valores no preço do Etanol, da Gasolina e da Gasolina Aditivada podem ser observados abaixo:
+
+![imagem](https://user-images.githubusercontent.com/78969637/193655429-29e31ecc-4f21-4621-b9a0-619339e55e37.png)
 
 
 4- <font color=gray> Qual o preço médio da gasolina e do etanol por Estado?
@@ -191,6 +198,10 @@ dfagosto.rename(columns={'Valor de Venda':'Média do Valor'},inplace=True)
 dfagosto
 ```
 
+Abaixo, veja o preço médio da Gasolina e do Etanol por Estado:
+
+![RESPOSTA_4](https://user-images.githubusercontent.com/78969637/193656650-12634712-413c-4e71-b378-12356a3f3108.png)
+
 5-<font color=gray> Qual o município que possui o menor preço para a gasolina e para o etanol?
 
 ```python
@@ -209,6 +220,189 @@ minAditivada['Produto'] = 'GASOLINA ADITIVADA'
 concatMins = pd.concat([minEtanol,minGasolina,minAditivada]).reset_index()
 concatMins
 ```
+
+Abaixo, veja o município que possui o valor mais baixo para Etanol, Gasolina e Gasolina Aditivada para o mês de Julho
+
+![RESPOSTA_5](https://user-images.githubusercontent.com/78969637/193656936-b58209b3-2e59-4889-adf5-0bea2a3da9ef.png)
+
+
+Em seguida, veja o município que possui o valor mais baixo para Etanol, Gasolina e Gasolina Aditivada para o mês de Agosto
+
+```python
+minimaPorMunicipio = tabelaAgosto.groupby(['Produto','Municipio'])[['Valor de Venda']].min()
+
+minEtanol = minimaPorMunicipio.loc['ETANOL'].sort_values(by='Valor de Venda',ascending = True).head(1)
+minEtanol['Produto'] = 'ETANOL'
+
+minGasolina = minimaPorMunicipio.loc['GASOLINA'].sort_values(by='Valor de Venda',ascending = True).head(1)
+minGasolina['Produto'] = 'GASOLINA'
+
+minAditivada = minimaPorMunicipio.loc['GASOLINA ADITIVADA'].sort_values(by='Valor de Venda',ascending = True).head(1)
+minAditivada['Produto'] = 'GASOLINA ADITIVADA'
+
+concatMins = pd.concat([minEtanol,minGasolina,minAditivada]).reset_index()
+concatMins
+```
+
+![RESPOSTA_5 1](https://user-images.githubusercontent.com/78969637/193657510-8bac8f90-4888-43b6-ba33-952508e42233.png)
+
+<font color = orange> 6 - Qual o município que possui o maior preço para a gasolina e para o etanol?
+
+- <font color = orange> Município com preço da gasolina e do etanol mais caro no mês de Julho
+
+```python
+maximoPorMunicipio = tabelaJulho.groupby(['Produto','Municipio'])[['Valor de Venda']].max()
+
+maxEtanol = maximoPorMunicipio.loc['ETANOL'].sort_values(by='Valor de Venda',ascending = False).head(1)
+maxEtanol['Produto'] = 'ETANOL'
+
+maxGasolina = maximoPorMunicipio.loc['GASOLINA'].sort_values(by='Valor de Venda',ascending = False).head(1)
+maxGasolina['Produto'] = 'GASOLINA'
+
+maxAditivada = maximoPorMunicipio.loc['GASOLINA ADITIVADA'].sort_values(by='Valor de Venda',ascending = False).head(1)
+maxAditivada['Produto'] = 'GASOLINA ADITIVADA'
+
+concatMins = pd.concat([maxEtanol,maxGasolina,maxAditivada]).reset_index()
+```
+
+![](https://user-images.githubusercontent.com/78969637/193658209-acd31a5a-67e8-402c-87e2-dd1bd07e9244.png)
+
+- <font color = orange> Município com preço da gasolina e do etanol mais caro no mês de Agosto
+
+```python
+maximoPorMunicipio = tabelaAgosto.groupby(['Produto','Municipio'])[['Valor de Venda']].max()
+
+maxEtanol = maximoPorMunicipio.loc['ETANOL'].sort_values(by='Valor de Venda',ascending = False).head(1)
+maxEtanol['Produto'] = 'ETANOL'
+
+maxGasolina = maximoPorMunicipio.loc['GASOLINA'].sort_values(by='Valor de Venda',ascending = False).head(1)
+maxGasolina['Produto'] = 'GASOLINA'
+
+maxAditivada = maximoPorMunicipio.loc['GASOLINA ADITIVADA'].sort_values(by='Valor de Venda',ascending = False).head(1)
+maxAditivada['Produto'] = 'GASOLINA ADITIVADA'
+
+concatMins = pd.concat([maxEtanol,maxGasolina,maxAditivada]).reset_index()
+concatMins
+```
+
+![](https://user-images.githubusercontent.com/78969637/193658516-0d02bce6-ec6c-4404-ac31-ee1957680891.png)
+
+<font color = orange> 7 - Qual a região que possui o maior valor médio da gasolina?
+
+<Font color = orange> Mês de Julho:
+
+```python
+Média gasolina com base nos meses de julho
+
+mediaGasolinaRegiaojulho = tabelaJulho[['Valor de Venda']].groupby([tabelaJulho['Produto'] == 'Gasolina', tabelaJulho['Regiao - Sigla']]).mean().max()
+mediaGasolinaRegiaojulho
+```
+
+<Font color = orange> Mês de Agosto:
+
+```python
+Média gasolina com base nos meses de agosto
+
+mediaGasolinaRegiaoagosto = tabelaAgosto[['Valor de Venda']].groupby([tabelaAgosto['Produto'] == 'Gasolina', tabelaAgosto['Regiao - Sigla']]).mean().max()
+mediaGasolinaRegiaoagosto
+```
+
+<Font color = orange> Mês de agosto e julho:
+
+```python
+#Média gasolina com base nos meses de julho e agosto
+
+mediaGasolinaRegiao2 = tabelaJulho[['Valor de Venda']].groupby([tabelaJulho['Produto'] == 'Gasolina', tabelaJulho['Regiao - Sigla']]), tabelaAgosto[['Valor de Venda']].groupby([tabelaAgosto['Produto'] == 'Gasolina', tabelaAgosto['Regiao - Sigla']]).mean().max()
+mediaGasolinaRegiao2
+```
+
+<font color = orange> 8 - Qual a região que possui o menor valor médio do etanol?
+
+- <Font color = orange> Mês de Julho:
+
+```python
+Média etanol com base nos meses de julho
+
+mediaGasolinaRegiaojulho = tabelaJulho[['Valor de Venda']].groupby([tabelaJulho['Produto'] == 'Etanol', tabelaJulho['Regiao - Sigla']]).mean().min()
+mediaGasolinaRegiaojulho
+```
+
+- <Font color = orange> Mês de Agosto:
+
+```python
+Média etanol com base nos meses de agosto
+
+mediaGasolinaRegiaoagosto = tabelaAgosto[['Valor de Venda']].groupby([tabelaAgosto['Produto'] == 'Etanol', tabelaAgosto['Regiao - Sigla']]).mean().min()
+mediaGasolinaRegiaoagosto
+```
+
+- <Font color = orange> Mês de agosto e julho:
+
+```python
+Média gasolina com base nos meses de julho e agosto
+
+mediaGasolinaRegiao2 = tabelaJulho[['Valor de Venda']].groupby([tabelaJulho['Produto'] == 'Etanol', tabelaJulho['Regiao - Sigla']]), tabelaAgosto[['Valor de Venda']].groupby([tabelaAgosto['Produto'] == 'Gasolina', tabelaAgosto['Regiao - Sigla']]).mean().min()
+mediaGasolinaRegiao2
+```
+
+```python
+tabelaJulho['Valor de Venda'].plot.box(vert= False, figsize=(20,5))
+```
+
+Graficamente, temos o boxplot do valor de venda do combustível para diferentes regiões do Brasil:
+
+![imagem](https://user-images.githubusercontent.com/78969637/193659690-c59a0c4c-da2e-424d-8411-e66343d16b96.png)
+
+<font color = orange> 9 - Há alguma correlação entre o valor do combustível (gasolina e etanol) e a região onde ele é vendido?
+
+- <Font color = orange> Mês de Julho:
+
+```python
+correlacaoJulho = tabelaJulho.groupby(tabelaJulho['Regiao - Sigla']).corr()
+correlacaoJulho
+```
+
+![imagem](https://user-images.githubusercontent.com/78969637/193661536-5b8df4b5-f1d7-4aff-b0cc-2a0f1f80551a.png)
+
+```python 
+Abaixo, realizamos o heatmap ou mapa de calor do mês de Julho para verificar a relação existente entre o valor de venda do 
+combustível e a região onde ele é vendido. No gráfico, vemos que a correlação é perfeita, ou seja, a região
+tem influência direta no preço de venda do combustível no Brasil
+```
+
+![imagem](https://user-images.githubusercontent.com/78969637/193662164-c617ae43-55c6-4efc-9239-e5409c666389.png)
+
+- <Font color = orange> Mês de Agosto:
+
+```python 
+Abaixo, realizamos o heatmap ou mapa de calor do mês de Agosto para verificar a relação existente entre o valor de venda do 
+combustível e a região onde ele é vendido. No gráfico, assim como no exemplo anterior, vemos que a correlação é perfeita. Veja abaixo:
+```
+
+![imagem](https://user-images.githubusercontent.com/78969637/193662432-c9d308f6-bdb8-4bc1-891d-1a8db780de4b.png)
+
+<Font color = orange> 10 - Há alguma correlação entre o valor do combustível (gasolina e etanol) e a bandeira que vende ele?
+
+-<Font color = orange> Mês de julho:
+
+```python
+correlacaoJulhoBand = tabelaJulho.groupby(tabelaJulho['Bandeira']).corr()
+correlacaoJulhoBand
+```
+
+![RESPOSTA_10](https://user-images.githubusercontent.com/78969637/193662879-11f7ec69-3321-4c90-b886-c40eff038b57.png)
+
+-<Font color = orange> Mês de Agosto:
+
+```python
+correlacaoAgostoBand= tabelaAgosto.groupby(tabelaAgosto['Bandeira']).corr()
+correlacaoAgostoBand
+```
+
+![RESPOSTA_10 1](https://user-images.githubusercontent.com/78969637/193663124-30cfbbcc-31f4-4c43-bee9-0c6c3b745e12.png)
+
+
+
 
 <!-- Para visualizar os dados das consultas foi criado um dashboard com Power BI em que é possível analisar graficamente das consultas e os insights que foram gerados pelo banco de dados:
 

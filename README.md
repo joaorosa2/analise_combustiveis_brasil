@@ -64,11 +64,8 @@ e da gasolina tiveram uma queda ou diminuição?
 <!-- ## Escrever Fatores -->
 
 ## FERRAMENTAS UTILIZADAS
-<img src="https://git-scm.com/images/logos/1color-orange-lightbg@2x.png" width="200" height="100" /> <img src="https://cdn.icon-icons.com/icons2/2368/PNG/512/github_logo_icon_143772.png" width="200" height="100" /> <img src="https://global-uploads.webflow.com/5e157548d6f7910beea4e2d6/62a07b53139aec4c1fd07771_discord-logo.png" width="200" height="100" />  
-
-<img src="https://blog.europneumaq.com/hubfs/imagens/blog/processo%20scrum.png" width="200" height="100" /><img src="https://i.pinimg.com/236x/a7/80/3e/a7803e321be386b043228963e7a727c6.jpg" width="200" height="100" /><img src="https://i.pinimg.com/236x/14/ff/9a/14ff9ab8b519f3cc7d94496d00f4c62d.jpg" width="210" height="100" />  
-
-<img src="https://salesdorado.com/wp-content/uploads/2022/07/Trello-Logo.png" width="200" height="100" /><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Pandas_logo.svg/1200px-Pandas_logo.svg.png" width="200" height="100" /><img src="https://python.org.br/theme/img/site-logo.svg" width="200" height="100" />
+![colab image size]<img src="![0_zNcjWYiZcJgreZAs](https://user-images.githubusercontent.com/106816863/194166434-720ca72d-a87d-41d1-9502-f230a422bb04.png)" width="400" height="790">
+![image](![0_zNcjWYiZcJgreZAs](https://user-images.githubusercontent.com/106816863/194166177-6e2c3e57-7f08-48df-8220-d2e7dc3b46c9.png))
 
 
 <!-- Para visualizar os dados das consultas foi criado um dashboard com Power BI em que é possível analisar graficamente das consultas e os insights que foram gerados pelo banco de dados:

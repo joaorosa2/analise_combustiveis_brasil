@@ -2,7 +2,8 @@
 
 ## <center>Projeto de Conclusão do Módulo 4 - Curso Data Analytics</center>
 
-<img src="https://pt.org.br/wp-content/uploads/2022/04/combustivel-maior-aumento-em-20-anos-1.jpeg" width="800" height="300" />
+![SQUAD_4](https://user-images.githubusercontent.com/78969637/194391892-204c22cf-0389-4221-b18c-ae290c1ebc6a.png)
+
 
 <!-- https://garagem360.com.br/wp-content/uploads/2021/06/preco-da-gasolina-oscila.jpg -->
 
